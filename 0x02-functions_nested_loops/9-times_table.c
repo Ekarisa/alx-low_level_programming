@@ -3,7 +3,8 @@
  * function prints the 9 times table
  * return 0
  */
-void times_table(void);
+void times_table(void)
+
 {
 	int row;
 	int n;
