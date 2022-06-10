@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * times_table - writes a function that prints prints the 9 times table
  */
