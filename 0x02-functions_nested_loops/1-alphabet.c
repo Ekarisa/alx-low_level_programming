@@ -1,5 +1,6 @@
 #include "main.h"
 #include "stdio.h"
+
 /**
  * print_alphabet - entry point
  *
@@ -9,7 +10,7 @@
  */
 
 
-void print_alphabet(void)
+ int main(void) 
 {
 	char c;
 
