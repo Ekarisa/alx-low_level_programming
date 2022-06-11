@@ -5,7 +5,7 @@
   *
   * Return: Nothing!
   */
-int main(void)
+int main()
 {
 	int i = 0;
 	long j = 1, k = 2;
@@ -18,7 +18,7 @@ int main(void)
 			printf(", %ld", k);
 		else
 		{
-			k += j;
+i			k += j;
 			j = k - j;
 			printf(", %ld", k);
 		}
