@@ -18,12 +18,14 @@ int main(void)
 			printf(", %ld", k);
 		else
 		{
-i			k += j;
+			k += j;
 			j = k - j;
+			printf(", %ld", k);
 		}
 
 		++i;
 	}
-	printf(", %ld", k);
-	return (0)
+
+	printf("\n");
+	return (0);
 }
